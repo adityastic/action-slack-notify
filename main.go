@@ -112,7 +112,7 @@ func main() {
 				AuthorName: envOr(EnvGithubActor, ""),
 				AuthorLink: "http://github.com/" + os.Getenv(EnvGithubActor),
 				AuthorIcon: "http://github.com/" + os.Getenv(EnvGithubActor) + ".png?size=32",
-				Footer: "<https://github.com/adityastic/NewspaperDeliverySystem/tree/jar|See Deployment HERE>",
+				Footer: "<https://github.com/adityastic|Made with ❤️ by Aditya>",
 				Fields: fields,
 			},
 		},
